@@ -109,7 +109,7 @@ public class ProofEditorPanel extends LegupPanel implements IHistoryListener {
 
     public JMenuBar getMenuBar() {
         if (mBar != null) return mBar;
-        mBar = new JMenuBar();
+        mBar = new JMenuBar();  
 
         file = new JMenu("File");
         newPuzzle = new JMenuItem("Open");
